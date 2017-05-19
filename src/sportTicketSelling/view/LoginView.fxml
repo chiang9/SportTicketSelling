@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import java.net.URL?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sportTicketSelling.view.LoginController">
+   <children>
+      <GridPane layoutX="53.0" layoutY="56.0" prefHeight="106.0" prefWidth="295.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="UserName:">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </Label>
+            <TextField fx:id="userLoginField" GridPane.columnIndex="1" />
+            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="20.0" text="Password:" textAlignment="CENTER" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+            </Label>
+            <PasswordField fx:id="passwordLoginField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <Button layoutX="110.0" layoutY="20.0" id= "slabel" mnemonicParsing="false" text="   Sport Ticket Selling" >
+         <font>
+            <Font name="Nanum Pen Script" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="loginButton" layoutX="293.0" layoutY="200.0" mnemonicParsing="false" text="Login" />
+      <Button fx:id="RegisterButton" layoutX="189.0" layoutY="200.0" mnemonicParsing="false" text="Register" style="color:white"/>
+      <Button fx:id="forgotPassButton" layoutX="43.0" layoutY="200.0" mnemonicParsing="false" text="Forget Password" />
+      <Text fx:id="status" fill="#fc0000" layoutX="108.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username/password is incorrect, Please try again" textAlignment="CENTER" wrappingWidth="185.0" />
+   </children>
+    <stylesheets>
+        <URL value="@login.css" />
+    </stylesheets>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.net.URL?>
+
+<AnchorPane prefHeight="400.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sportTicketSelling.view.ForgotPassController">
+   <children>
+      <Label layoutX="114.0" layoutY="41.0" text="Forgot Password">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="100.0" text="Username: " />
+      <Label layoutX="47.0" layoutY="129.0" text="What is your name?" />
+      <Label layoutX="46.0" layoutY="222.0" text="New Password: " />
+      <TextField fx:id="usernameField" layoutX="114.0" layoutY="96.0" prefHeight="23.0" prefWidth="185.0" />
+      <TextField fx:id="ansField" layoutX="58.0" layoutY="160.0" prefHeight="23.0" prefWidth="243.0" />
+      <PasswordField fx:id="passField" layoutX="58.0" layoutY="251.0" prefHeight="23.0" prefWidth="243.0" />
+      <Button fx:id="submitButton" layoutX="254.0" layoutY="340.0" mnemonicParsing="false" text="Submit" />
+      <Button fx:id="backButton" layoutX="47.0" layoutY="340.0" mnemonicParsing="false" text="    " />
+      <Label fx:id="status" layoutX="160.0" layoutY="298.0" text="status" textAlignment="CENTER" textFill="#f50303" />
+   </children>
+   <stylesheets>
+      <URL value="@login.css" />
+   </stylesheets>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import java.net.URL?>
+<AnchorPane prefHeight="200.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sportTicketSelling.view.PurchaseController">
+   <children>
+      <Label layoutX="142.0" layoutY="27.0" text="Purchase">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="72.0" text="Credit Card:" />
+      <TextField fx:id="creditCardField" layoutX="45.0" layoutY="100.0" prefHeight="23.0" prefWidth="270.0" />
+      <Button fx:id="comfirmButton" layoutX="252.0" layoutY="155.0" mnemonicParsing="false" text="Comfirm" />
+      <Button fx:id="closeButton" layoutX="33.0" layoutY="155.0" mnemonicParsing="false" text="    " />
+   </children>
+   <stylesheets>
+      <URL value="@main.css" />
+   </stylesheets>
+</AnchorPane>

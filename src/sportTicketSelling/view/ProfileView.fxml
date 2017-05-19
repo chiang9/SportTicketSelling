@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import java.net.URL?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.*?>
+<AnchorPane prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sportTicketSelling.view.ProfileViewController">
+   <children>
+      <Label layoutX="126.0" layoutY="39.0" text="Profile">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="upgradeButton" layoutX="127.0" layoutY="346.0" mnemonicParsing="false" text="               Upgrade" >
+      <font>
+         <Font name="Nanum Brush Script" size="20.0" />
+      </font>
+      </Button>
+      <Button fx:id="closeButton" layoutX="43.0" layoutY="346.0" mnemonicParsing="false" text="    " />
+      <Label layoutX="59.0" layoutY="101.0" text="User:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="138.0" text="Status: ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="52.0" layoutY="285.0" text="Club Points:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Text fx:id="usernameText" layoutX="138.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="statusText" layoutX="138.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="pointText" layoutX="174.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="55.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Credit Card: ">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="creditText" layoutX="81.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="XXXX-XXXX-XXXX-XXXX" />
+   </children>
+   <stylesheets>
+      <URL value="@profile.css" />
+   </stylesheets>
+</AnchorPane>

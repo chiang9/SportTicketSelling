@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import java.net.URL?>
+<AnchorPane prefHeight="680.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sportTicketSelling.view.AdminController">
+   <children>
+      <SplitPane dividerPositions="0.44488977955911824" layoutX="126.0" layoutY="158.0" prefHeight="800.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView fx:id="MatchTable" layoutX="65.0" layoutY="76.0" prefHeight="380.0" prefWidth="508.0" AnchorPane.bottomAnchor="222.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="76.0">
+                    <columns>
+                      <TableColumn fx:id="midCol" prefWidth="66.0" text="Id" />
+                      <TableColumn fx:id="mlocationCol" prefWidth="150.0" text="Location" />
+                        <TableColumn fx:id="mdateCol" prefWidth="78.0" text="Date" />
+                        <TableColumn fx:id="msportCol" prefWidth="114.0" text="Sport" />
+                        <TableColumn fx:id="mpriceCol" prefWidth="62.0" text="Price" />
+                        <TableColumn fx:id="mticketCol" prefWidth="59.0" text="Ticket" />
+                    </columns>
+                  </TableView>
+                  <Label layoutX="229.0" layoutY="30.0" prefHeight="20.0" prefWidth="51.0" text="Match" textAlignment="CENTER" AnchorPane.leftAnchor="229.0" AnchorPane.rightAnchor="228.0" AnchorPane.topAnchor="30.0">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="mAddButton" layoutX="127.0" layoutY="644.0" mnemonicParsing="false" text="   " AnchorPane.bottomAnchor="11.0" />
+                  <Button fx:id="logoutButton" layoutX="14.0" layoutY="644.0" mnemonicParsing="false" text="Logout" AnchorPane.bottomAnchor="11.0" />
+                  <Label layoutX="21.0" layoutY="488.0" text="Location: " AnchorPane.bottomAnchor="175.0" />
+                  <Label layoutX="19.0" layoutY="519.0" text="Date:" AnchorPane.bottomAnchor="144.0" />
+                  <Label layoutX="14.0" layoutY="584.0" text="Ticket: " AnchorPane.bottomAnchor="79.0" />
+                  <Label layoutX="16.0" layoutY="553.0" text="Sport: " AnchorPane.bottomAnchor="110.0" />
+                  <TextField fx:id="mLocationField" layoutX="82.0" layoutY="484.0" prefHeight="23.0" prefWidth="170.0" AnchorPane.bottomAnchor="171.0" />
+                  <TextField fx:id="mDateField" layoutX="82.0" layoutY="515.0" prefHeight="23.0" prefWidth="170.0" AnchorPane.bottomAnchor="140.0" />
+                  <ChoiceBox fx:id="mTicketCBox" layoutX="82.0" layoutY="580.0" prefHeight="23.0" prefWidth="170.0" AnchorPane.bottomAnchor="75.0" />
+                  <ChoiceBox fx:id="mSportCBox" layoutX="82.0" layoutY="549.0" prefHeight="23.0" prefWidth="170.0" AnchorPane.bottomAnchor="106.0" />
+                  <Label layoutX="268.0" layoutY="488.0" text="Athlete: " AnchorPane.bottomAnchor="175.0" />
+                  <Button fx:id="mRemoveButton" layoutX="191.0" layoutY="644.0" mnemonicParsing="false" text="    " AnchorPane.bottomAnchor="11.0" />
+                  <ListView fx:id="mAthleteLView" layoutX="268.0" layoutY="511.0" prefHeight="144.0" prefWidth="229.0" AnchorPane.bottomAnchor="23.0" />
+                  <Label layoutX="19.0" layoutY="613.0" text="Price: " AnchorPane.bottomAnchor="50.0" />
+                  <TextField fx:id="priceField" layoutX="82.0" layoutY="609.0" prefHeight="23.0" prefWidth="170.0" AnchorPane.bottomAnchor="46.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <SplitPane dividerPositions="0.7257575757575757" layoutY="151.0" prefHeight="798.0" prefWidth="698.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="796.0" prefWidth="311.0">
+                           <children>
+                              <TableView fx:id="AthleteTable" layoutX="82.0" layoutY="74.0" prefHeight="533.0" prefWidth="327.0" AnchorPane.bottomAnchor="189.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="74.0">
+                                <columns>
+                                  <TableColumn fx:id="aidCol" prefWidth="72.0" text="Id" />
+                                  <TableColumn fx:id="anameCol" prefWidth="118.0" text="Name" />
+                                    <TableColumn fx:id="acountryCol" prefWidth="101.0" text="Country" />
+                                    <TableColumn fx:id="asportCol" prefWidth="121.0" text="Sport" />
+                                    <TableColumn fx:id="aageCol" prefWidth="63.0" text="Age" />
+                                </columns>
+                              </TableView>
+                              <Label layoutX="200.0" layoutY="31.0" prefHeight="20.0" prefWidth="57.0" text="Athlete" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="199.0" AnchorPane.topAnchor="30.0">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="aRemoveButton" layoutX="359.0" layoutY="623.0" mnemonicParsing="false" text="   " AnchorPane.bottomAnchor="30.0" />
+                              <Button fx:id="aAddButton" layoutX="300.0" layoutY="623.0" mnemonicParsing="false" text="   " AnchorPane.bottomAnchor="30.0" />
+                              <Label layoutX="41.0" layoutY="631.0" text="Name: " AnchorPane.bottomAnchor="150.0" />
+                              <Label layoutX="41.0" layoutY="660.0" text="Country: " AnchorPane.bottomAnchor="121.0" />
+                              <Label layoutX="41.0" layoutY="691.0" text="Age: " AnchorPane.bottomAnchor="90.0" />
+                              <TextField fx:id="aNameField" layoutX="100.0" layoutY="627.0" prefHeight="23.0" prefWidth="290.0" AnchorPane.bottomAnchor="146.0" />
+                              <TextField fx:id="aCountryField" layoutX="100.0" layoutY="656.0" prefHeight="23.0" prefWidth="290.0" AnchorPane.bottomAnchor="117.0" />
+                              <TextField fx:id="aAgeField" layoutX="100.0" layoutY="687.0" prefHeight="23.0" prefWidth="290.0" AnchorPane.bottomAnchor="86.0" />
+                              <Label layoutX="39.0" layoutY="602.0" text="Sport: " AnchorPane.bottomAnchor="59.0" />
+                              <ChoiceBox fx:id="aSportCBox" layoutX="100.0" layoutY="598.0" prefHeight="23.0" prefWidth="170.0" AnchorPane.bottomAnchor="55.0" />
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="796.0" prefWidth="387.0">
+                           <children>
+                              <TableView fx:id="SportTable" layoutX="99.0" layoutY="74.0" prefHeight="533.0" prefWidth="327.0" AnchorPane.bottomAnchor="189.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="74.0">
+                                <columns>
+                                  <TableColumn fx:id="sidCol" minWidth="0.0" prefWidth="64.0" text="Id" />
+                                  <TableColumn fx:id="stitleCol" prefWidth="113.0" text="Title" />
+                                </columns>
+                              </TableView>
+                              <Label layoutX="65.0" layoutY="28.0" text="Sport" AnchorPane.topAnchor="30.0">
+                                 <font>
+                                    <Font name="System Bold" size="15.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="sRemoveButton" layoutX="78.0" layoutY="739.0" mnemonicParsing="false" text="   " AnchorPane.bottomAnchor="34.0" />
+                              <Button fx:id="sAddButton" layoutX="14.0" layoutY="739.0" mnemonicParsing="false" text="   " AnchorPane.bottomAnchor="34.0" />
+                              <Label layoutX="19.0" layoutY="644.0" text="Title: " AnchorPane.bottomAnchor="137.0" />
+                              <TextField fx:id="sTitleField" layoutX="16.0" layoutY="666.0" prefHeight="23.0" prefWidth="137.0" AnchorPane.bottomAnchor="107.0" />
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+    <stylesheets>
+        <URL value="@admin.css" />
+    </stylesheets>
+</AnchorPane>

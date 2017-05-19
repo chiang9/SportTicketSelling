@@ -1,0 +1,84 @@
+#mAddButton {
+    	-fx-background-image: url("../image/add.png");
+    	-fx-background-color:transparent;
+    	-fx-background-size: 22 22;
+    	-fx-background-repeat: no-repeat;
+    	-fx-background-position:center;
+
+ }
+ #mAddButton:hover {
+   -fx-background-color:#e1f4e9;
+ }
+#aAddButton {
+    	-fx-background-image: url("../image/add.png");
+    	-fx-background-color:transparent;
+    	-fx-background-size: 25 25;
+    	-fx-background-repeat: no-repeat;
+    	-fx-background-position:center;
+ }
+
+ #aAddButton:hover {
+   -fx-background-color:#e1f4e9;
+ }
+#sAddButton {
+    	-fx-background-image: url("../image/add.png");
+    	-fx-background-color:transparent;
+    	-fx-background-size: 25 25;
+    	-fx-background-repeat: no-repeat;
+    	-fx-background-position:center;
+ }
+
+ #sAddButton:hover {
+   -fx-background-color:#e1f4e9;
+ }
+
+
+ #mRemoveButton {
+     	-fx-background-image: url("../image/delete.png");
+     	-fx-background-color:transparent;
+     	-fx-background-size: 25 25;
+     	-fx-background-repeat: no-repeat;
+     	-fx-background-position:center;
+  }
+
+  #mRemoveButton:hover {
+    -fx-background-color:#efd5d9;
+  }
+
+
+ #aRemoveButton {
+     	-fx-background-image: url("../image/delete.png");
+     	-fx-background-color:transparent;
+     	-fx-background-size: 25 25;
+     	-fx-background-repeat: no-repeat;
+     	-fx-background-position:center;
+  }
+
+  #aRemoveButton:hover {
+    -fx-background-color:#efd5d9;
+  }
+
+ #sRemoveButton {
+     	-fx-background-image: url("../image/delete.png");
+     	-fx-background-color:transparent;
+     	-fx-background-size: 25 25;
+     	-fx-background-repeat: no-repeat;
+     	-fx-background-position:center;
+  }
+
+  #sRemoveButton:hover {
+    -fx-background-color:#efd5d9;
+  }
+
+ #logoutButton {
+     	-fx-background-image: url("../image/pass.png");
+     	-fx-background-color:transparent;
+     	-fx-background-size: 55 32;
+     	-fx-background-repeat: no-repeat;
+     	-fx-background-position:top;
+     	-fx-text-fill: white;
+  }
+
+  #logoutButton:hover {
+    -fx-background-color:#efd5d9;
+  }

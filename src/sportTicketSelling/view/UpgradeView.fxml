@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import java.net.URL?>
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sportTicketSelling.view.UpgradeController">
+   <children>
+      <Label layoutX="168.0" layoutY="39.0" text="Upgrade">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="83.0" text="Credit Card Number: " />
+      <TextField fx:id="cardField" layoutX="162.0" layoutY="79.0" prefHeight="23.0" prefWidth="214.0" />
+      <Label layoutX="112.0" layoutY="116.0" text="Fee: ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="feeCBox" layoutX="162.0" layoutY="113.0" prefHeight="23.0" prefWidth="214.0" />
+      <Label layoutX="77.0" layoutY="163.0" text="Expiry Date: " />
+      <Text fx:id="dateField" layoutX="168.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2016/11/3">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Button fx:id="submitButton" layoutX="295.0" layoutY="251.0" mnemonicParsing="false" text="Submit" />
+      <Button fx:id="closeButton" layoutX="50.0" layoutY="251.0" mnemonicParsing="false" text="    " />
+      <Label fx:id="status" layoutX="153.0" layoutY="213.0" text="lab" textFill="#e80202">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+   </children>
+   <stylesheets>
+      <URL value="@login.css" />
+   </stylesheets>
+</AnchorPane>

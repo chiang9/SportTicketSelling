@@ -1,0 +1,150 @@
+#refundButton {
+    	-fx-background-image: url("../image/login.png");
+    	-fx-background-color:transparent;
+    	-fx-background-size: 117 30;
+    	-fx-background-repeat: no-repeat;
+    	-fx-background-position:center;
+    	-fx-text-fill: white;
+ }
+
+ #refundButton:hover {
+   -fx-background-color:#bfdbef;
+ }
+
+#profileButton {
+    	-fx-background-image: url("../image/register.png");
+    	-fx-background-color:transparent;
+    	-fx-background-size: 80 30;
+    	-fx-background-repeat: no-repeat;
+    	-fx-background-position:center;
+    	-fx-text-fill: white;
+ }
+
+ #profileButton:hover {
+   -fx-background-color:#b6b8ba;
+ }
+
+ #logoutButton {
+     	-fx-background-image: url("../image/pass.png");
+     	-fx-background-color:transparent;
+     	-fx-background-size: 55 32;
+     	-fx-background-repeat: no-repeat;
+     	-fx-background-position:top;
+     	-fx-text-fill: white;
+  }
+
+  #logoutButton:hover {
+    -fx-background-color:#efd5d9;
+  }
+
+   #checkoutButton {
+       	-fx-background-image: url("../image/orange.png");
+       	-fx-background-color:transparent;
+       	-fx-background-size: 75 26;
+       	-fx-background-repeat: no-repeat;
+       	-fx-background-position:center;
+       	-fx-text-fill: white;
+    }
+
+    #checkoutButton:hover {
+      -fx-background-color:#efe1d0;
+    }
+
+
+#searchButton {
+       	-fx-background-image: url("../image/search.png");
+       	-fx-background-color:transparent;
+       	-fx-background-size: 25 25;
+       	-fx-background-repeat: no-repeat;
+       	-fx-background-position:left;
+       	-fx-text-fill: grey;
+}
+
+#searchButton:hover {
+      -fx-background-color:#dde0d7;
+
+}
+#purchaseButton {
+           	-fx-background-image: url("../image/orange.png");
+           	-fx-background-color:transparent;
+           	-fx-background-size: 75 25;
+           	-fx-background-repeat: no-repeat;
+           	-fx-background-position:center;
+           	-fx-text-fill: white;
+}
+
+#purchaseButton:hover {
+          -fx-background-color:#efe1d0;
+}
+
+ #pointButton {
+           	-fx-background-image: url("../image/orange.png");
+           	-fx-background-color:transparent;
+           	-fx-background-size: 132 26;
+           	-fx-background-repeat: no-repeat;
+           	-fx-background-position:center;
+           	-fx-text-fill: white;
+}
+
+#pointButton:hover {
+          -fx-background-color:#efe1d0;
+}
+
+ #comfirmButton {
+     	-fx-background-image: url("../image/register.png");
+     	-fx-background-color:transparent;
+     	-fx-background-size: 68 26;
+     	-fx-background-repeat: no-repeat;
+     	-fx-background-position:center;
+     	-fx-text-fill: white;
+  }
+
+#comfirmButton:hover {
+    -fx-background-color:#b6b8ba;
+}
+
+#closeButton {
+      	-fx-background-image: url("../image/close.png");
+      	-fx-background-color:transparent;
+      	-fx-background-size: 28 28;
+      	-fx-background-repeat: no-repeat;
+      	-fx-background-position:center;
+}
+
+#closeButton:hover {
+     -fx-background-color:#e8e8e8;
+}
+
+#expensiveButton {
+    	-fx-background-image: url("../image/price.png");
+    	-fx-background-color:transparent;
+    	-fx-background-size: 82 28;
+    	-fx-background-repeat: no-repeat;
+    	-fx-background-position:top;
+ }
+
+ #expensiveButton:hover {
+   -fx-background-color:#c4c6c6;
+ }
+ #interButton {
+     	-fx-background-image: url("../image/price.png");
+     	-fx-background-color:transparent;
+     	-fx-background-size: 120 28;
+     	-fx-background-repeat: no-repeat;
+     	-fx-background-position:top;
+  }
+
+  #interButton:hover {
+    -fx-background-color:#c4c6c6;
+  }
+  #cheapButton {
+      	-fx-background-image: url("../image/price.png");
+      	-fx-background-color:transparent;
+      	-fx-background-size: 80 28;
+      	-fx-background-repeat: no-repeat;
+      	-fx-background-position:top;
+   }
+
+   #cheapButton:hover {
+     -fx-background-color:#c4c6c6;
+   }

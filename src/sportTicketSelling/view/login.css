@@ -1,0 +1,95 @@
+#loginButton {
+    	-fx-background-image: url("../image/login.png");
+    	-fx-background-color:transparent;
+    	-fx-background-size: 47 28;
+    	-fx-background-repeat: no-repeat;
+    	-fx-background-position:center;
+    	-fx-text-fill: white;
+ }
+
+ #loginButton:hover {
+   -fx-background-color:#bfdbef;
+ }
+
+#RegisterButton {
+    	-fx-background-image: url("../image/register.png");
+    	-fx-background-color:transparent;
+    	-fx-background-size: 65 28;
+    	-fx-background-repeat: no-repeat;
+    	-fx-background-position:center;
+    	-fx-text-fill: white;
+ }
+
+ #RegisterButton:hover {
+   -fx-background-color:#b6b8ba;
+ }
+
+ #forgotPassButton {
+     	-fx-background-image: url("../image/pass.png");
+     	-fx-background-color:transparent;
+     	-fx-background-size: 120 36;
+     	-fx-background-repeat: no-repeat;
+     	-fx-background-position:top;
+     	-fx-text-fill: white;
+  }
+
+  #forgotPassButton:hover {
+    -fx-background-color:#efd5d9;
+  }
+
+
+#slabel{
+ -fx-background-image: url("../image/sport.png");
+ -fx-background-color:transparent;
+-fx-background-size: 30 30;
+-fx-background-repeat: no-repeat;
+-fx-background-position:left;
+}
+
+#RegisterBack {
+    	-fx-background-image: url("../image/back.png");
+    	-fx-background-color:transparent;
+    	-fx-background-size: 28 28;
+    	-fx-background-repeat: no-repeat;
+    	-fx-background-position:center;
+}
+
+#RegisterBack:hover {
+   -fx-background-color:#e8e8e8;
+}
+
+#backButton {
+    	-fx-background-image: url("../image/back.png");
+    	-fx-background-color:transparent;
+    	-fx-background-size: 28 28;
+    	-fx-background-repeat: no-repeat;
+    	-fx-background-position:center;
+ }
+#backButton:hover {
+   -fx-background-color:#e8e8e8;
+}
+
+
+#submitButton {
+     	-fx-background-image: url("../image/pass.png");
+     	-fx-background-color:transparent;
+     	-fx-background-size: 58 33;
+     	-fx-background-repeat: no-repeat;
+     	-fx-background-position:top;
+     	-fx-text-fill: white;
+}
+
+#submitButton:hover {
+    -fx-background-color:#efd5d9;
+}
+
+#closeButton {
+        	-fx-background-image: url("../image/close.png");
+        	-fx-background-color:transparent;
+        	-fx-background-size: 28 28;
+        	-fx-background-repeat: no-repeat;
+        	-fx-background-position:center;
+}
+#closeButton:hover {
+       -fx-background-color:#e8e8e8;
+}
